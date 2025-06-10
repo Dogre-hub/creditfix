@@ -798,7 +798,7 @@ window.scrollToSection = scrollToSection;
  */
 window.openWhatsAppChat = function() {
   // Direct WhatsApp link
-  const whatsappUrl = 'https://wa.me/15551234567?text=Hi!%20I\'m%20interested%20in%20credit%20repair%20services.%20Can%20you%20help%20me%20get%20started?';
+  const whatsappUrl = 'https://wa.me/12726348947?text=Hi!%20I\'m%20interested%20in%20credit%20repair%20services.%20Can%20you%20help%20me%20get%20started?';
   window.open(whatsappUrl, '_blank');
 };
 
@@ -1331,7 +1331,7 @@ class ContactTracking {
     document.querySelectorAll('a[href^="https://wa.me/"]').forEach(link => {
       link.addEventListener('click', () => {
         this.trackEvent('whatsapp_click', {
-          phone_number: '+15551234567',
+          phone_number: '12726348947',
           source: 'website'
         });
       });
